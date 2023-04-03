@@ -1,0 +1,97 @@
+.header-with-search__search-section>.getreal-searchbar {
+    width: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(196, 15, 15, 0.09);
+  }
+  .ZUq1cc:not(:first-child):after {
+    content: "";
+    height: .9375rem;
+    width: 0;
+    border-left: 1px solid hsla(0,0%,100%,.22);
+    border-right: 1px solid hsla(0,0%,100%,.22);
+    position: absolute;
+    left: -6px;
+    top: calc(50% - 7px);
+  }
+  ._2TLLZP {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .9425rem;
+    font-weight: 300;
+    padding: .25rem;
+    position: relative;
+    overflow: visible;
+    outline: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .Getrealsk8shop-top--sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateZ(0);
+    z-index: 100;
+  }
+  .Getrealsk8shop-top {
+    background: rgb(67, 67, 67);
+    background: linear-gradient(-180deg,rgb(67, 67, 67),rgb(67, 67, 67));
+    transition: transform .2s cubic-bezier(.4,0,.2,1);
+  } 
+  .container8{
+    background-color: #4b4a4a;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .container4{
+    background-color: #373737;
+    padding-right: 20px;
+    display: flex;
+  }
+  body{
+    height: fit-content;
+    background-color: #8e8e8e;
+  }
+  .card {
+    object-fit: contain;
+    text-align: start;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #d7d7d7;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  }
+  footer{
+    background-color: #595858;
+  }
+    @media only screen and (max-width: 770px) {
+      .Navbar__Items,
+      .Navbar {
+        flex-direction: column;
+      }
+        
+    .Navbar__Items {
+        display:none;
+      }
+        
+    .Navbar__Items--right {
+        margin-left:0;
+      }
+        
+    .Navbar__ToggleShow {
+        display: flex;
+      }
+        
+    .Navbar__Link-toggle {
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+       } 
+    }
